@@ -1,0 +1,76 @@
+header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.glassmorph {
+	background: rgba(255, 255, 255, 0.25);
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	backdrop-filter: blur(4px);
+	border-radius: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+header .logo {
+	height: 80%;
+	margin: 10px;
+}
+
+header .logo img {
+	width: 50px;
+}
+
+header menu {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	width: 100%;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+header menu a {
+	color: #d7e179;
+	text-decoration: none;
+}
+
+main {
+	padding: 20px 0;
+}
+
+main .row {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+main .card {
+	height: 254px;
+	width: 200px;
+	margin: 0 auto;
+	background-color: #011522;
+	border-radius: 8px;
+	margin: 10px;
+}
+
+main .card {
+	padding: 10px 5px;
+}
+
+main .card .audio {
+	height: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-bottom: 1px rgba(255, 255, 255, 0.555) solid;
+}
+
+main .card .title {
+	color: white;
+	text-align: center;
+}
+
+main .card .audio audio {
+	width: 200px;
+}
